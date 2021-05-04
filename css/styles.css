@@ -1,0 +1,112 @@
+/* font-family: 'Inter', sans-serif; */
+/* font-family: 'Lexend Deca', sans-serif; */
+
+
+/* ---------GENERAL------------ */
+
+main
+{
+    background-color: #0A0C1B;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 1000px;
+}
+
+
+/* --------------MAIN------------ */
+
+main>.container
+{
+    display: flex;
+
+    width: 800px;
+}
+
+main .container .info
+{
+    background-color: #1C1938;
+
+    width: 50%;
+    
+    border-radius: 5px;
+}
+
+main .container .info>.h2
+{
+    margin: 50px 40px 20px;
+}
+
+main .container .info .h2>h2
+{
+    font-size: 23px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+
+    color: white;
+}
+
+main .container .info .h2>h2>span
+{
+    color: hsl(277, 64%, 61%);
+}
+
+main .container .info .description
+{
+    color: white;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+
+    padding: 0px 60px 50px 40px;
+
+    line-height: 19px;
+}
+
+main .container .info>.numbers
+{
+    display: flex;
+}
+
+main .container .info>.numbers>div
+{
+    margin-left: 40px;
+}
+
+main .container .info>.numbers>div>p
+{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+
+    color: white;
+
+    margin-bottom: 8px;
+}
+
+main .container .info>.numbers>div>.text
+{
+    margin-bottom: 40px;
+
+    color: #817F95;
+
+    font-size: 8px;
+
+    text-transform: uppercase;
+}
+
+main .container .img
+{
+    background-image: url(/img/image-header-desktop.jpg);
+    background-size: contain;
+
+    width: 50%;
+}
+
+main .container .img .childImg
+{
+    height: 100%;
+    background-color: hsla(277, 64%, 61%, 0.514)
+}
