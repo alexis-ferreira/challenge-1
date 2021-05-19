@@ -11,8 +11,6 @@ main
     display: flex;
     justify-content: center;
     align-items: center;
-
-    height: 1000px;
 }
 
 
@@ -23,6 +21,8 @@ main>.container
     display: flex;
 
     width: 800px;
+
+    padding: 250px 0;
 }
 
 main .container .info
@@ -99,7 +99,7 @@ main .container .info>.numbers>div>.text
 
 main .container .img
 {
-    background-image: url(/img/image-header-desktop.jpg);
+    background-image: url(../img/image-header-desktop.jpg);
     background-size: contain;
 
     width: 50%;
